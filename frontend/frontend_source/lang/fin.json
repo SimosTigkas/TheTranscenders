@@ -22,7 +22,9 @@
     "play_snek": "Pelaa Snek",
 	"reset_settings": "Palauta peliasetukset oletusarvoihin",
 	"go_back": "Palaa takaisin",
-	"game_completed": "Peli päättynyt!"
+	"game_completed": "Peli päättynyt!",
+    "left_side": "Vasen Puoli",
+    "right_side": "Oikea Puoli"
     },
 	"tournament": {
 	"title": "Turnaus",

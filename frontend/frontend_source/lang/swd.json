@@ -22,7 +22,9 @@
     "play_snek": "Spela Snek",
 	"reset_settings": "Återställ spelinställningar till standard",
 	"go_back": "Gå tillbaka",
-	"game_completed": "Spelet är slutfört!"
+	"game_completed": "Spelet är slutfört!",
+    "left_side": "Vänster Sida",
+    "right_side": "Höger Side"
     },
 	"tournament": {
 	"title": "Turnering",

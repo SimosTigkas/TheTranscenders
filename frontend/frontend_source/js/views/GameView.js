@@ -352,7 +352,7 @@ export default class extends AbstractView {
                     <div class="game-card-body">
                         <div class="row text-center">
                             <div class="col">
-                                <h5 class="side-text-color">Left Side</h5>
+                                <h5 class="side-text-color" data-i18n="game.left_side">Left Side</h5>
                                 <p>${l1}</p>
                                 ${l2 ? `<p>${l2}</p>` : ""}
                             </div>
@@ -360,7 +360,7 @@ export default class extends AbstractView {
                                 <h4>${score_str}</h4>
                             </div>
                             <div class="col">
-                                <h5 class="side-text-color">Right Side</h5>
+                                <h5 class="side-text-color" data-i18n="game.right_side">Right Side</h5>
                                 <p>${r1}</p>
                                 ${r2 ? `<p>${r2}</p>` : ""}
                             </div>

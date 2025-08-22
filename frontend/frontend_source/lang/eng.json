@@ -22,7 +22,9 @@
     "play_snek": "Play Snek",
 	"reset_settings": "Reset Game Settings to Default",
 	"go_back": "Go back",
-	"game_completed": "Game Completed!"
+	"game_completed": "Game Completed!",
+    "left_side": "Left Side",
+    "right_side": "Right Side"
     },
 	"tournament" : {
 	"title": "Tournament",

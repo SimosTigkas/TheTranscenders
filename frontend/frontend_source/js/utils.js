@@ -64,6 +64,21 @@ export class TranslationManager {
                 console.warn(`Translation key ${key} not found`);
             }
         });
+
+        // Update placeholder attributes for [data-i18n-placeholder] elements
+        const placeholderElements = document.querySelectorAll("[data-i18n-placeholder]");
+        console.log(`Found ${placeholderElements.length} elements with data-i18n-placeholder`);
+        placeholderElements.forEach(element => {
+            const key = element.getAttribute("data-i18n-placeholder");
+            console.log(`Processing placeholder with key: ${key}`);
+            const value = this.getTranslation(key, translations);
+            if (value) {
+                element.setAttribute("placeholder", value);
+                console.log(`Updated placeholder with key ${key} to: ${value}`);
+            } else {
+                console.warn(`Translation key ${key} not found for placeholder`);
+            }
+        });
     }
 
     async initLanguage(lang, requiredKeys = ['stats.title']) {
